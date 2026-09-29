@@ -1,17 +1,29 @@
-# inc06
+# Activity 06 — Drawing with Flutter
 
-A new Flutter project.
+Student: Parsh Jadon
 
-## Getting Started
+## Features
+- CustomPainter smiley face
+- Responsive geometry based on canvas size
+- Mood slider with sad / neutral / happy behavior
+- Eye-size slider
+- Three face types: Classic, Sleepy, Surprised
+- Tap face to cycle face type
+- Long-press to randomize mood, color, and face type
+- SnackBar feedback
+- Graduate `shouldRepaint` comparison switch
 
-This project is a starting point for a Flutter application.
+## Run
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Build APK
+```bash
+flutter clean
+flutter pub get
+flutter build apk --release
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+APK output: `build/app/outputs/flutter-apk/app-release.apk`
